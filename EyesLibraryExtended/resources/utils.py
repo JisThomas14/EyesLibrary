@@ -2,10 +2,11 @@ from __future__ import absolute_import
 import six.moves.http_client
 import os
 import logging
-# from applitools.core import logger, StdoutLogger
+#from applitools.core import logger, StdoutLogger
 # from applitools.eyes import MatchLevel
 # from applitools.core import EyesIllegalArgument
 # from applitools.selenium.positioning import StitchMode
+
 from applitools.selenium import Eyes, Target, Region, positioning, webelement, StitchMode
 from applitools.common import logger, StdoutLogger, BatchInfo, FileLogger
 
@@ -82,11 +83,12 @@ def get_selector_strategy(selector):
 def manage_logging(enable_eyes_log=None, enable_http_debug_log=None):
     
     if enable_eyes_log is True:
-        logger.set_logger(StdoutLogger())
-        logger.open_()
+        logger.set_logger(StdoutLogger(level=logging.DEBUG))
+        #logger.open_()
     elif enable_eyes_log is False:
-        logger.close()
-        logger.set_logger(None)
+        #logger.close()
+        #logger.set_logger(None)
+        pass
 
     if enable_http_debug_log is True:
         six.moves.http_client.HTTPConnection.debuglevel = 1
@@ -94,10 +96,12 @@ def manage_logging(enable_eyes_log=None, enable_http_debug_log=None):
         six.moves.http_client.HTTPConnection.debuglevel = 0
 
 
+
 def save_current_properties():
     return {
         "force_full_page_screenshot": variables.eyes.force_full_page_screenshot,
-        "enable_eyes_log": logger._logger_to_use is not None,
+        #"enable_eyes_log": logger._logger_to_use is not None,
+        "enable_eyes_log": variables.logger_to_use,
         "enable_http_debug_log": six.moves.http_client.HTTPConnection.debuglevel > 0,
         "hidescrollbars": variables.eyes.hide_scrollbars,
         "wait_before_screenshots": variables.eyes.wait_before_screenshots,
@@ -109,7 +113,8 @@ def save_current_properties():
 
 def save_current_logging_properties():
     return {
-        "enable_eyes_log": logger._logger_to_use is not None,
+        #"enable_eyes_log": logger._logger_to_use is not None,
+        "enable_eyes_log": variables.logger_to_use,
         "enable_http_debug_log": six.moves.http_client.HTTPConnection.debuglevel > 0,
     }
 

@@ -1,4 +1,4 @@
-# EyesLibrary for Robot Framework
+# EyesLibraryExtended for Robot Framework
 
 #### Table of Contents
 
@@ -14,12 +14,13 @@
 
 ## Introduction
 
-EyesLibrary is a Robot Framework Library to automate visual software testing verification. EyesLibrary uses a Python SDK called [Eyes-Selenium](https://pypi.python.org/pypi/eyes-selenium) from the tool [Applitools Eyes](http://applitools.com/), and can be used with the [SeleniumLibrary](https://github.com/robotframework/SeleniumLibrary) and/or the [AppiumLibrary](https://github.com/serhatbolsu/robotframework-appiumlibrary) .
+EyesLibraryExtended is a Robot Framework Library to automate visual software testing verification. EyesLibraryExtended uses a Python SDK called [Eyes-Selenium](https://pypi.python.org/pypi/eyes-selenium) from the tool [Applitools Eyes](http://applitools.com/), and can be used with the [SeleniumLibrary](https://github.com/robotframework/SeleniumLibrary) and/or the [AppiumLibrary](https://github.com/serhatbolsu/robotframework-appiumlibrary) .
 
-This library is a fork of [Robot-AppEyes](https://github.com/NaviNet/Robot-AppEyes).
-In order to use EyesLibrary, you are required to [sign up](https://applitools.com/sign-up/) for a free account with Applitools. See the [Usage](https://github.com/joel-oliveira/EyesLibrary#usage) section.
+This library is a fork of EyesLibrary (https://github.com/joel-oliveira/EyesLibrary) which again is a fork of [Robot-AppEyes](https://github.com/NaviNet/Robot-AppEyes).
 
-- Information about EyesLibrary keywords can be found on the [Keyword Documentation](https://joel-oliveira.github.io/EyesLibrary/) page.
+In order to use EyesLibraryExtended, you are required to [sign up](https://applitools.com/sign-up/) for a free account with Applitools. See the [Usage](https://github.com/joel-oliveira/EyesLibrary#usage) section.
+
+- Information about EyesLibraryExtended keywords can be found on the [Keyword Documentation](https://joel-oliveira.github.io/EyesLibrary/) page.
 
 - The [Applitools Documentation](https://pypi.org/project/eyes-selenium/) may be consulted in order to understand how Eyes works.
 

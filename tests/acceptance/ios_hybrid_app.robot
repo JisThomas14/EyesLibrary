@@ -1,6 +1,6 @@
 *** Settings ***
 Library        AppiumLibrary
-Library        EyesLibrary
+Library        EyesLibraryExtended
 Resource       resources/common.robot
 Resource       resources/ios.robot
 Resource       resources/mobile.robot
@@ -51,7 +51,7 @@ Setup
     @{CONTEXTS}=                     Get Contexts
     Switch To Context                @{CONTEXTS}[1]
     Open Eyes Session                ${API KEY}
-    ...                              EyesLibrary
+    ...                              EyesLibraryExtended
     ...                              ${test name}
     ...                              AppiumLibrary
     ...                              enable_eyes_log=${true}

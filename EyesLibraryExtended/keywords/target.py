@@ -11,7 +11,7 @@ from applitools.selenium import Eyes, Target, Region, positioning, webelement, S
 #     FloatingRegionBySelector,
 #     FloatingBounds,
 # )
-from EyesLibrary.resources import utils
+from EyesLibraryExtended.resources import utils
 
 
 class TargetKeywords:

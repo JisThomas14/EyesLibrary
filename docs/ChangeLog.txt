@@ -44,3 +44,8 @@ Version 2.1
 Version 3.0 - EyesLibrary
 -----------
 - Updated the library's source code in order to use eyes-selenium 4.1.25
+
+Version 4.0 - EyesLibraryExtended
+-----------
+- Updated the library's source code in order to use eyes-selenium 4.17.1
+- Added support to execute tests using Ultrafast grid (Available with Applitool enterprise licence)

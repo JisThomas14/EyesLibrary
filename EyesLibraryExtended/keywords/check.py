@@ -17,7 +17,7 @@ from applitools.selenium import Eyes, Target, Region, positioning, webelement, S
 from applitools.common import logger, StdoutLogger, BatchInfo, FileLogger
 from .session import SessionKeywords
 from robot.api import logger as loggerRobot
-from EyesLibrary.resources import variables, utils
+from EyesLibraryExtended.resources import variables, utils
 import six
 
 

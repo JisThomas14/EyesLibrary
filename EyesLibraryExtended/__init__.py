@@ -5,7 +5,7 @@ from .resources import variables
 from .version import __version__
 
 
-class EyesLibrary(SessionKeywords, CheckKeywords, TargetKeywords):
+class EyesLibraryExtended(SessionKeywords, CheckKeywords, TargetKeywords):
     """
     EyesLibrary is a visual verification library for [http://robotframework.org/|Robot Framework] that leverages
     [https://applitools.com/docs/api/eyes-sdk/index-gen/classindex-selenium-python.html|Applitools Eyes Python SDK] and

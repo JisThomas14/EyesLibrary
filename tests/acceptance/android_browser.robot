@@ -1,6 +1,6 @@
 *** Settings ***
 Library     AppiumLibrary
-Library     EyesLibrary
+Library     EyesLibraryExtended
 Resource    resources/common.robot
 Resource    resources/mobile.robot
 Resource    resources/android.robot
