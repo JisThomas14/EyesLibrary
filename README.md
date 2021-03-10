@@ -32,9 +32,9 @@ In order to use EyesLibraryExtended, you are required to [sign up](https://appli
 
 The following versions were used to test the library:
 
-- Python 2.7.14 or 3.6.0
+- Python 2.7.14 or 3.7.0
 - Robot Framework 3.1.1
-- Eyes-Selenium 3.16.2
+- Eyes-Selenium 4.17.1
 - SeleniumLibrary 3.3.1 (For Web Tests)
 - AppiumLibrary 1.5.0.3 (For Mobile Tests)
 
