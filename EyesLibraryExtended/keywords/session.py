@@ -297,7 +297,7 @@ class SessionKeywords(object):
         When opening the session on a mobile browser or hybrid app, the context must be set to WEBVIEW in order to retrieve the correct viewport size. Geolocation of the device may have to be set after switching context.
 
         *Example:*
-            | Open Eyes Session | YourApplitoolsKey | AppName | TestName | SeleniumLibrary | 1024 | 768 | OSOverrideName | BrowserOverrideName | layout | ${true} | batchname=BatchName | serverurl=https://myserver.com |
+            | Open Eyes Grid Session  | YourApplitoolsKey | AppName | TestName | SeleniumLibrary | 1024 | 768 | OSOverrideName | BrowserOverrideName | layout | ${true} | batchname=BatchName | serverurl=https://myserver.com |
         """
 
         if appname is None:

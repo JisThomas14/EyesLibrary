@@ -7,7 +7,7 @@ from .version import __version__
 
 class EyesLibraryExtended(SessionKeywords, CheckKeywords, TargetKeywords):
     """
-    EyesLibrary is a visual verification library for [http://robotframework.org/|Robot Framework] that leverages
+    EyesLibraryExtended is a visual verification library for [http://robotframework.org/|Robot Framework] that leverages
     [https://applitools.com/docs/api/eyes-sdk/index-gen/classindex-selenium-python.html|Applitools Eyes Python SDK] and
     [http://robotframework.org/SeleniumLibrary/SeleniumLibrary.html|SeleniumLibrary] / 
     [http://serhatbolsu.github.io/robotframework-appiumlibrary/AppiumLibrary.html|AppiumLibrary].
@@ -28,15 +28,15 @@ class EyesLibraryExtended(SessionKeywords, CheckKeywords, TargetKeywords):
 
     = Before running tests =
 
-    In order to run EyesLibrary, you have to create a [https://applitools.com/sign-up/|free account] with Applitools, to retrieve your API key.
+    In order to run EyesLibraryExtended, you have to create a [https://applitools.com/sign-up/|free account] with Applitools, to retrieve your API key.
     After signing up, you can get it from the [https://eyes.applitools.com/app/test-results/|Applitools Eyes Test Manager] (on user menu, click "My API Key").
         
     You may want to read [https://applitools.com/docs|Applitools documentation] in order to better understand how Eyes works.
     
-    Prior to running tests, EyesLibrary must be imported into your Robot test suite.
+    Prior to running tests, EyesLibraryExtended must be imported into your Robot test suite.
 
     Example:
-        | Library | EyesLibrary | 
+        | Library | EyesLibraryExtended |
 
     You may define the following arguments when importing the library (You may also define them on `Open Eyes Session`):
     - API Key (apikey)
@@ -52,7 +52,7 @@ class EyesLibraryExtended(SessionKeywords, CheckKeywords, TargetKeywords):
     - Save New Tests (save_new_tests)        
 
     Example:
-        | Library | EyesLibrary | ApiKey | AppName | TestName | SeleniumLibrary | layout | ${true} | Windows | Firefox | https://myserver.com | 5000 | ${false} |
+        | Library | EyesLibraryExtended | ApiKey | AppName | TestName | SeleniumLibrary | layout | ${true} | Windows | Firefox | https://myserver.com | 5000 | ${false} |
         
     = Writing tests =
 
@@ -227,7 +227,7 @@ class EyesLibraryExtended(SessionKeywords, CheckKeywords, TargetKeywords):
         save_new_tests=True,
     ):
         """
-        EyesLibrary can be imported with optional arguments. These may also be defined in `Open Eyes Session`.
+        EyesLibraryExtended can be imported with optional arguments. These may also be defined in `Open Eyes Session`.
         
         - ``apikey``: Applitools API key
         - ``appname``: Application name
