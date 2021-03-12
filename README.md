@@ -18,9 +18,9 @@ EyesLibraryExtended is a Robot Framework Library to automate visual software tes
 
 This library is a fork of EyesLibrary (https://github.com/joel-oliveira/EyesLibrary) which again is a fork of [Robot-AppEyes](https://github.com/NaviNet/Robot-AppEyes).
 
-In order to use EyesLibraryExtended, you are required to [sign up](https://applitools.com/sign-up/) for a free account with Applitools. See the [Usage](https://github.com/joel-oliveira/EyesLibrary#usage) section.
+In order to use EyesLibraryExtended, you are required to [sign up](https://applitools.com/sign-up/) for a free account with Applitools. See the [Usage](https://github.com/JisThomas14/EyesLibraryExtended#usage) section.
 
-- Information about EyesLibraryExtended keywords can be found on the [Keyword Documentation](https://joel-oliveira.github.io/EyesLibrary/) page.
+- Information about EyesLibraryExtended keywords can be found on the [Keyword Documentation](https://github.com/JisThomas14/EyesLibraryExtended/) page.
 
 - The [Applitools Documentation](https://pypi.org/project/eyes-selenium/) may be consulted in order to understand how Eyes works.
 
@@ -42,43 +42,43 @@ The following versions were used to test the library:
 
 The recommended **installation** method is using [pip](http://pip-installer.org):
 
-    pip install robotframework-eyeslibrary
+    pip install robotframework-eyeslibraryextended
 
 To **update** both the library and all
 its dependencies to the latest version:
 
-    pip install --upgrade robotframework-eyeslibrary
+    pip install --upgrade robotframework-eyeslibraryextended
 
 To install a **specific version**:
 
-    pip install robotframework-eyeslibrary==(DesiredVersion)
+    pip install robotframework-eyeslibraryextended==(DesiredVersion)
 
 #### Uninstall
 
-To uninstall EyesLibrary use the following pip command:
+To uninstall EyesLibraryExtended use the following pip command:
 
-    pip uninstall robotframework-eyeslibrary
+    pip uninstall robotframework-eyeslibraryextended
 
 ## Directory Layout
 
-**EyesLibrary/**
+**EyesLibraryExtended/**
 
 &ensp;&ensp;The Robot Framework Python Library that makes use of the Applitools Eyes Python SDK
 
 **tests/acceptance/**
 
-&ensp;&ensp;Test files to display what the keywords from EyesLibrary accomplish
+&ensp;&ensp;Test files to display what the keywords from EyesLibraryExtended accomplish
 
 **docs/**
 
-&ensp;&ensp;Documentation for the EyesLibrary: Keyword Documentation and ChangeLog
+&ensp;&ensp;Documentation for the EyesLibraryExtended: Keyword Documentation and ChangeLog
 
 ## Usage
 
 You must create a [free account](https://applitools.com/sign-up/) with Applitools in order to run
-EyesLibrary and return results.
+EyesLibraryExtended and return results.
 
-Then, to use the library, follow [EyesLibrary Keyword Documentation](https://joel-oliveira.github.io/EyesLibrary/).
+Then, to use the library, follow [EyesLibraryExtended Keyword Documentation](https://joel-oliveira.github.io/EyesLibrary/).
 
 This is a Robot Framework library. If you're not familiarized with Robot Framework, 
 please consult [Robot Framework User Guide](http://code.google.com/p/robotframework/wiki/UserGuide).
@@ -131,7 +131,13 @@ To be defined. It might be helpful to read [Applitools Documentation](https://ap
 
 ## Credits
 
-EyesLibrary was forked from [Robot-AppEyes](https://github.com/NaviNet/Robot-AppEyes) on version 1.2.
+EyesLibraryExtended was forked from EyesLibrary (https://github.com/joel-oliveira/EyesLibrary) on version 2.1 ,which again is a fork of [Robot-AppEyes](https://github.com/NaviNet/Robot-AppEyes) on version 1.2.
+
+EyesLibrary authors:
+
+- Joel Oliveira(https://github.com/joel-oliveira)
+- Sofia Nunes
+- Jonathan Ward
 
 Robot-AppEyes authors:
 
@@ -140,4 +146,4 @@ Robot-AppEyes authors:
 - [Gareth Nixon](https://github.com/GarethNixon)
 - [Adam Simmons](https://github.com/adamsimmons)
 
-EyesLibrary then emerged as an independent library from the original one, on version 2.0.
+EyesLibraryExtended then emerged as an independent library from the original one, on version 4.0.
