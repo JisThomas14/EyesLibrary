@@ -20,7 +20,7 @@ This library is a fork of EyesLibrary (https://github.com/joel-oliveira/EyesLibr
 
 In order to use EyesLibraryExtended, you are required to [sign up](https://applitools.com/sign-up/) for a free account with Applitools. See the [Usage](https://github.com/JisThomas14/EyesLibraryExtended#usage) section.
 
-- Information about EyesLibraryExtended keywords can be found on the [Keyword Documentation](https://github.com/JisThomas14/EyesLibraryExtended/) page.
+- Information about EyesLibraryExtended keywords can be found on the [Keyword Documentation](https://jisthomas14.github.io/EyesLibraryExtended/) page.
 
 - The [Applitools Documentation](https://pypi.org/project/eyes-selenium/) may be consulted in order to understand how Eyes works.
 
@@ -78,7 +78,7 @@ To uninstall EyesLibraryExtended use the following pip command:
 You must create a [free account](https://applitools.com/sign-up/) with Applitools in order to run
 EyesLibraryExtended and return results.
 
-Then, to use the library, follow [EyesLibraryExtended Keyword Documentation](https://joel-oliveira.github.io/EyesLibrary/).
+Then, to use the library, follow [EyesLibraryExtended Keyword Documentation](https://jisthomas14.github.io/EyesLibraryExtended/).
 
 This is a Robot Framework library. If you're not familiarized with Robot Framework, 
 please consult [Robot Framework User Guide](http://code.google.com/p/robotframework/wiki/UserGuide).
@@ -105,7 +105,7 @@ For instance, you may want to use a different Remote URL than the one provided i
 
 Before running the Android Hybrid App tests, you need to install the Demo App (APK found at _tests/resources_) in your device.
 
-For in depth detail on how the keywords function, read the Keyword documentation found here: [Keyword Documentation](https://joel-oliveira.github.io/EyesLibrary/)
+For in depth detail on how the keywords function, read the Keyword documentation found here: [Keyword Documentation](https://jisthomas14.github.io/EyesLibraryExtended/)
 
 **Remember to include your Applitools API key otherwise the
 test will not run.** To run a test, open a command prompt within the _tests/acceptance_ folder and run:
